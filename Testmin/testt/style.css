@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(96, 96, 202);
+}
+
+/* App */
+.app {
+    background-size: cover;
+    transition: 0.4s ease-out;
+}
+
+/* Main */
+main {
+    margin: 100px auto 0;
+    max-width: 450px;
+    max-height: 650px;
+    background: rgb(208, 164, 81);
+    border: 2px wheat solid;
+    border-radius: 40px;
+    box-shadow: 2px 0px 5px 6px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Search box */
+.search-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box .search-bar {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin-top: -5px;
+    font-size: 20px;
+    color: #313131;
+    background-color: rgba(225, 225, 255, 0.5);
+    border-radius: 0 0 16px 16px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    outline: none;
+    border: none;
+    appearance: none;
+    transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* Location box */
+.location-box {
+    margin-top: 30px;
+}
+
+.location-box .location {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+    text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+/* Weather box */
+.weather-box {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.weather-box .temp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 30px auto;
+    max-width: 350px;
+    padding: 15px 25px;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 3px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 3px 6px rgba(50, 50, 70, 0.5);
+}
+
+.weather-box .weather {
+    font-size: 48px;
+    font-weight: 500;
+    color: black;
+    text-align: center;
+    text-shadow: 3px 3px rgba (50, 50, 70, 0.5);
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    object-fit: contain}
